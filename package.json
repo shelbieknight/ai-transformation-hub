@@ -1,38 +1,24 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
-
-    <title>AI Transformation Hub — concept prototype</title>
-    <meta
-      name="description"
-      content="A concept prototype of an AI transformation operating system for a marketing org: intake, prioritization, delivery pipeline, an agent fleet tracked for production readiness, a champion network, and adoption. Built by Shelbie Knight."
-    />
-
-    <!-- Open Graph / social preview -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="AI Transformation Hub — concept prototype" />
-    <meta
-      property="og:description"
-      content="How I'd run a marketing org's AI transformation: intake, prioritization, delivery, an agent fleet tracked for production readiness, and adoption. Concept prototype with sample data."
-    />
-    <meta property="og:image" content="./og-image.svg" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="AI Transformation Hub — concept prototype" />
-    <meta
-      name="twitter:description"
-      content="A working model of a marketing AI transformation program. Concept prototype with sample data."
-    />
-    <meta name="twitter:image" content="./og-image.svg" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
-</html>
+{
+  "name": "ai-transformation-hub",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A concept prototype of an AI transformation operating system for a marketing org.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide-react": "^0.383.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "vite": "^5.3.1"
+  }
+}
